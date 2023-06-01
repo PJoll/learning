@@ -31,7 +31,7 @@ class IndexPage extends Component {
                                         : `What is your name?`
                                     }
                                 </span>
-                                { !user && <input type="text" className="form-control mt-3 px-3 py-2" onKeyUp={this.handleKeyUp} autoComplete="off" style={nameInputStyles} /> }
+                                { !user && <input type="text" className="form-control mt-3 px-3 py-2" onKeyUp={this.handleKeyUp} autoComplete="off" style={{background: 'transparent', color: '#999', border: 0, borderBottom: '1px solid #666', borderRadius: 0, fontSize: '3rem', fontWeight: 500, boxShadow: 'none !important' }} /> }
                     
                     </div>
                   </section>
