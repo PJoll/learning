@@ -10,7 +10,10 @@
           return acc;
         }, {});
         
-        config.plugins.push(new webpack.DefinePlugin(env));
+        config.plugins.push(
+            new webpack.DefinePlugin(env)
+        
+        );
         
         return config;
       }
