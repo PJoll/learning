@@ -13,16 +13,7 @@ class IndexPage extends Component {
     render() {
         const {user} = this.state;
 
-        const nameInputStyles = {
-            background: 'transparent',
-            color: '#999',
-            border: 0,
-            borderBottom: '1px solid #666',
-            borderRadius: 0,
-            fontSize: '3rem',
-            fontWeight: 500,
-            boxShadow: 'none !important'
-        };
+        
 
         return(
             <Layout pageTitle="Realtime Chat">
@@ -54,3 +45,7 @@ class IndexPage extends Component {
         )
     }
 }
+
+export default () => (
+    <IndexPage />
+);
